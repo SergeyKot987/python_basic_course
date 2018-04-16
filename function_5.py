@@ -1,19 +1,19 @@
 def card_func():
     while True:
-    c = input("Enter yout number card\n")
-    card_list = c.split(" ")
-    if len(card_list) != 4:
-        print("card number incorrect")
-        continue
-    has_error = False
-    for el in card_list:
-        if len(el) != 4:
-            has_error = True
-            break
-    if has_error:
-        print("incorrect")
-        continue
-    break
+        c = input("Enter yout number card\n")
+        card_list = c.split(" ")
+        if len(card_list) != 4:
+            print("card number incorrect")
+            continue
+        has_error = False
+        for el in card_list:
+            if len(el) != 4:
+                has_error = True
+                break
+        if has_error:
+            print("incorrect")
+            continue
+        break
 
 def bank_func():
     if card_list[0] == "5167":
