@@ -14,14 +14,15 @@ def card_func():
             print("incorrect")
             continue
         break
+    
 
-def bank_func():
     if card_list[0] == "5167":
         print("You use Privatbank credit card")
     elif card_list[0] == "5375":
         print("You use MonoBank credit card")
     else:
         print("You use unknown ")
+      return c  
 
 def date_func():
     while True:
@@ -38,6 +39,7 @@ def date_func():
             if date_error:
                 continue
         break
+    return date        
 
 def cvv_func():
     while True:
@@ -50,3 +52,5 @@ def cvv_func():
                 print('Enter 3 numbers ')
         else:
             print('Enter 3 numbers ')
+    return cvv            
+            
