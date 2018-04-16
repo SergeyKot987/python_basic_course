@@ -1,4 +1,6 @@
 def card_func():
+    while True:
+    c = input("Enter yout number card\n")
     card_list = c.split(" ")
     if len(card_list) != 4:
         print("card number incorrect")
