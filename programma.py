@@ -23,7 +23,7 @@ while True:
     if check_cvv_code(cvv_code) == True:
         break
 
-print("Your credit card information:\n")
+
 print(your_name.upper())
 print(number_card)
 print(exp_date)
